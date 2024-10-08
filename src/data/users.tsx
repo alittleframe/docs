@@ -153,7 +153,15 @@ const Users: User[] = [
     source: 'https://github.com/Add3official',
     tags: ['apps', 'defi'],
   }, 
-  {
+ {
+    title: 'CryptoChill',
+    description: 'CryptoChill is a highly customizable crypto payment gateway supporting payments in CELO, CUSD, BTC, ETH, SOL, USDT, USDC, TON and many more.',
+    preview: require('./showcase/cryptochill.png'),
+    website: 'https://cryptochill.com/',
+    source: 'https://github.com/cryptochill',
+    tags: ['apps', 'wallets'],
+  }, 
+   {
     title: 'EthicHub',
     description: translate({
       message: 'EthicHub connects DeFi to the real world: crowdlending backed by crowd-collateral for the unbanked farmers excluded from TradFi.',
